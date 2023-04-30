@@ -1,0 +1,125 @@
+
+
+/* PHONE SIZE*/
+@media  only screen and (max-width:768px) {
+     body{
+        font-size: small;
+     }
+    .logo{
+      width: 30px;
+      font-size:13px;
+    }
+    .main-photo{
+        height: 200px;
+    }
+    .main-photo-text{
+       font-size: medium;
+       padding: 20% 5% ;
+      
+    }
+    .info{
+        font-size: smaller;
+        height: 150px ;
+        
+    }
+    .info-main{
+        margin-top :5px ;
+        padding: 0;
+        width:25%;
+    }
+    .info-main img{
+        height: 20px;
+        width: 20px;
+    }
+   .content img{
+    height:200px ;
+   }
+   .tow-box{
+    display: block;
+    width: 90%;
+   }
+   .tow-box hr{
+    width: 100px;
+   }
+   .tow-box img{
+    width:200px;
+    height: 100%;
+   }
+  .third-cont{
+    float: left;
+    height: 200px;
+    width: 100%;
+  }
+  footer{  
+    font-size: 7px;
+    float: left;
+    text-align:start;
+  }
+ .r-card ul{
+    width:20px ;
+    text-align: center;
+ }
+.r-card dd{margin: 0%;
+   padding: 0;
+  }
+
+
+    }
+
+    
+/*TAPLET SIZE */
+@media only screen and (max-width:1279px) and (min-width:768px){
+    body{
+      font-size: large;
+    }
+    .info{
+        font-size: smaller;
+        height: 180px ;
+        
+    }
+    .info-main{
+        margin-top :7px ;
+        padding: 0;
+        width:27%;
+    }
+    .info-main img{
+        height: 30px;
+        width: 30px;
+    }
+    .content img{
+       height: 350px;
+        
+    }
+    .tow-box{
+        float: left;
+        width:45%;
+        text-align: start;   
+        margin: 1%;
+       }
+    .tow-box img{
+       width: 150px;
+    }
+   .third-cont{
+    font-size:18px;
+   }
+    .third-cont button{
+        height: 50px;
+    }
+    footer{
+        font-size: 18px;
+    }
+    .r-card{
+      padding-right: 0%;
+      width: 45%;
+    }
+    .r-card ul{
+        width:40px ;
+        text-align: center;
+     }
+    .r-card dd{
+       margin:2%;
+       padding: 0;
+      }
+    
+   
+}
